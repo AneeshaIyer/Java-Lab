@@ -6,7 +6,7 @@ class LessBalanceException extends Exception {
 }
 class Account {
     double balance;
-    static final double MIN_BALANCE = 500;
+    static final double MIN_BALANCE = 500; 
     
     public Account() {
         balance = MIN_BALANCE;
